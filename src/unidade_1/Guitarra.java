@@ -8,7 +8,7 @@ class Guitarra {
 	private String numeroSerie, fabricante, modelo, tipo, madeira;
 	private double preco;
 	
-	// Método Constructor
+	// Método Constructor Guitarra
 	public Guitarra(String numeroSerie, String fabricante, 
 			String modelo, String tipo, String madeira, double preco) {
 		this.numeroSerie = numeroSerie;
