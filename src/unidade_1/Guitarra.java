@@ -1,7 +1,7 @@
 package unidade_1;
 import java.text.NumberFormat;
 
-//Declaração da Classe
+//Declaração da Classe Guitarra
 class Guitarra {
 	
 	// Atributos (Privados)
