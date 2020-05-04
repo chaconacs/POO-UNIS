@@ -83,7 +83,7 @@ class Guitarra {
 		System.out.println("******************************");
 	}
 
-	// Método Main
+	// Método Principal Main 
 	public static void main(String[] args) {
 		
 		   // Criando o Objeto minhaGuitarra do tipo -> Guitarra
