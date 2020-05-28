@@ -11,10 +11,10 @@ public class CalcImc {
 	public static void main(String[] args) {
 		double peso = 0, altura = 0;
 		try {
-			String entrada1 = JOptionPane.showInputDialog("Informe o seu Peso em (Kg): \nExemplo: 74.50 (utilize ponto)");
+			String entrada1 = JOptionPane.showInputDialog("Seu Peso em (Kg): \nExemplo: 74.50 (utilize ponto)");
 			if (entrada1 != null) {
 				peso = Double.parseDouble(entrada1);
-				String entrada2 = JOptionPane.showInputDialog("Informe a sua altura em (cm): \nExemplo: 175");
+				String entrada2 = JOptionPane.showInputDialog("Sua altura em (cm): \nExemplo: 175");
 				if (entrada2 != null) {
 					altura = Double.parseDouble(entrada2);
 					calculaImc(peso, altura/100);
